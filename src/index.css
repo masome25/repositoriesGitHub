@@ -1,0 +1,93 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+/* @font-face {
+    font-family: SegoeUi;
+    src: url(./assets/font/FontsFree-Net-Segoe-UI.ttf);
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    box-sizing: border-box;
+    margin : 0;
+    border-width: 0;
+} */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 1rem;
+}
+
+
+.type {
+  margin: 7rem 0 auto 0; 
+}
+@media screen and (min-width: 640px) {
+    .type {
+        margin: 12.2rem auto auto 1.2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .type {
+        margin: 7.2rem auto auto 12.2rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .type {
+        margin: 4.5rem 13.3rem auto auto;
+    }
+}
+.language {
+    margin: 70px 96px auto auto;
+  }
+  @media screen and (min-width: 640px) {
+      .language {
+          margin: 12.2rem auto auto 6.3rem;
+      }
+  }
+  @media screen and (min-width: 768px) {
+      .language {
+        margin: 7.2rem auto auto 17.5rem;
+      }
+  }
+  @media screen and (min-width: 1024px) {
+      .language {
+          margin: 4.5rem 6rem auto auto;
+      }
+  }
+
+  .sort {
+    margin: 70px 18px auto auto;
+  }
+  @media screen and (min-width: 640px) {
+      .sort {
+          margin: 12.2rem auto auto 13.6rem;
+      }
+  }
+  @media screen and (min-width: 768px) {
+      .sort {
+        margin: 7.2rem auto auto 25rem;
+      }
+  }
+  @media screen and (min-width: 1024px) {
+      .sort {
+          margin: 4.5rem 1rem auto auto;
+      }
+  }
+
+
+
+
+
+
+.yellow {
+  color : #F1E05A;
+}
+.blue {
+  color : #3178C6;
+}
+.red {
+  color : #E34C26;
+}
+
